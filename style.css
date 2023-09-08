@@ -6,3 +6,71 @@
 .yellow{
     color: yellow;
 }
+
+h3:first-child{
+    color: pink;
+}
+
+.text-box>div>p{
+    color: red;
+}
+
+p:nth-child(7n){
+    color: green;
+}
+
+/* task2 */
+ul{list-style: none;}
+
+ul{display: inline-block;}
+
+a{text-decoration: none;}
+
+.hoverlink:hover,
+.hoverlink:focus{
+    color: fuchsia;
+}
+
+.hoverlink:link{
+    color: orange;
+}
+
+.hoverlink:visited{
+    color: orangered;
+}
+
+.hoverlink:active{
+    color: black;
+}
+
+li:first-child{
+    color: red;
+}
+
+li:nth-child(2n){
+    color: orange;
+}
+
+.Friday li:nth-child(-n+2){
+    background-color: blue;
+}
+
+.wadnasday li:nth-child(odd){
+    background-color: brown;
+}
+
+.wadnasday li:nth-child(even){
+    background-color: indianred;
+}
+
+.Friday li:nth-child(n+2){
+    font-size: 72px;
+}
+
+.Friday li:nth-child(-n+2){
+    font-size: 36px;
+}
+
+.Thursday li:nth-child(4){
+    font-size: 159px;
+}
